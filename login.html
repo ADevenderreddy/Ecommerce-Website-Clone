@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <!-- Toggle between Login and Sign Up -->
+            <div class="form-toggle">
+                <button id="login-btn" onclick="showLoginForm()">Login</button>
+                <button id="signup-btn" onclick="showSignUpForm()">Sign Up</button>
+            </div>
+
+            <!-- Login Form -->
+            <form id="login-form" class="form" onsubmit="login(event)" action="/index.html">
+                <h2 class="heading">Login</h2>
+                <input type="email" placeholder="Enter Your Email" id="login-email" required>
+                <input type="password" placeholder='Password' id="login-password" required>
+
+                <button type="submit">Login</button>
+                <p id="login-error" class="error"></p>
+            </form>
+
+            <!-- Sign Up Form -->
+            <form id="signup-form" class="form" onsubmit="signUp(event)" action="/index.html">
+                <h2 class="heading">Sign Up</h2>
+                <input type="email" placeholder="Enter Your Email" id="signup-email" required>
+                <input type="password" placeholder="Password" id="signup-password" required>
+                <input type="password" placeholder="Conform Password" id="signup-confirm-password" required>
+
+                <button type="submit">Sign Up</button>
+                <p id="signup-error" class="error"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

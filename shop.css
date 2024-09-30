@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  box-shadow: 2px 2px 10px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 9;
+  position: fixed;
+}
+.lis a {
+  text-decoration: none;
+  color: black;
+}
+.sl1 {
+  list-style: none;
+  margin-left: 3%;
+  cursor: pointer;
+}
+.sl2 {
+  list-style: none;
+  display: flex;
+  width: 60%;
+}
+.sl2 .lis {
+  float: left;
+  padding: 0 50px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+#shop {
+  color: orange;
+}
+.sl2 .lis:hover,
+a:hover {
+  transform: scale(1.2);
+  color: orange;
+  cursor: pointer;
+}
+.dummy {
+  width: 100vw;
+  height: 15vh;
+}
+.shop {
+  width: 100vw;
+  min-height: 85vh;
+}
+.shop .cnt1 {
+  width: 100vw;
+  height: 30vh;
+  color: black;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 2%;
+}
+.cnt1 h1 {
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.cnt1 hr {
+  margin-bottom: 1%;
+  width: 5%;
+  border: 2.4px solid red;
+}
+.cnt1 p {
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+.page1 {
+  width: 100vw;
+  height: 83vh;
+  background-color: white;
+}
+
+#page1img1 {
+  background-image: url(./img/shop/1.jpg);
+  margin-left: 2%;
+}
+#page1img2 {
+  background-image: url(./img/shop/2.jpg);
+}
+#page1img3 {
+  background-image: url(./img/shop/3.jpg);
+}
+#page1img4 {
+  background-image: url(./img/shop/4.jpg);
+}
+
+.page2 {
+  width: 100vw;
+  height: 83vh;
+  background-color: white;
+}
+
+#page2img1 {
+  background-image: url(./img/shop/5.jpg);
+  margin-left: 2%;
+}
+#page2img2 {
+  background-image: url(./img/shop/6.jpg);
+}
+#page2img3 {
+  background-image: url(./img/shop/7.jpg);
+}
+#page2img4 {
+  background-image: url(./img/shop/8.jpg);
+}
+
+.page3 {
+  width: 100vw;
+  height: 83vh;
+  background-color: white;
+}
+
+#page3img1 {
+  background-image: url(./img/shop/9.jpg);
+  margin-left: 2%;
+}
+#page3img2 {
+  background-image: url(./img/shop/10.jpg);
+}
+#page3img3 {
+  background-image: url(./img/shop/11.jpg);
+}
+#page3img4 {
+  background-image: url(./img/shop/12.jpg);
+}
+
+.page4 {
+  width: 100vw;
+  height: 83vh;
+  background-color: white;
+}
+
+#page4img1 {
+  background-image: url(./img/shop/13.jpg);
+  margin-left: 2%;
+}
+#page4img2 {
+  background-image: url(./img/shop/14.jpg);
+}
+#page4img3 {
+  background-image: url(./img/shop/15.jpg);
+}
+#page4img4 {
+  background-image: url(./img/shop/16.jpg);
+}
+
+.page5 {
+  width: 100vw;
+  height: 83vh;
+  background-color: white;
+}
+
+#page5img1 {
+  background-image: url(./img/shop/17.jpg);
+  margin-left: 2%;
+}
+#page5img2 {
+  background-image: url(./img/shop/18.jpg);
+}
+#page5img3 {
+  background-image: url(./img/shop/19.jpg);
+}
+#page5img4 {
+  background-image: url(./img/shop/20.jpg);
+}
+
+.page6 {
+  width: 100vw;
+  height: 83vh;
+  background-color: white;
+}
+
+.pageContainer2 {
+  width: 100vw;
+  height: 50%;
+  /* background-color: red; */
+  display: flex;
+}
+.pageimg {
+  width: 21.5%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 1.5%;
+  box-shadow: 2px 2px 10px black;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.pageimg:hover {
+  transform: scale(1.1);
+}
+#page6img1 {
+  background-image: url(./img/shop/21.jpg);
+  margin-left: 2%;
+}
+#page6img2 {
+  background-image: url(./img/shop/22.jpg);
+}
+#page6img3 {
+  background-image: url(./img/shop/23.jpg);
+}
+#page6img4 {
+  background-image: url(./img/shop/24.jpg);
+}
+
+.pageContainer3 {
+  width: 100vw;
+  height: 20%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.pagetext {
+  width: 21.5%;
+  height: 100%;
+  margin: 0 1.5%;
+  /* border: 2px solid black; */
+  text-align: center;
+}
+.pagetext h1 {
+  margin-top: 1%;
+  text-align: center;
+}
+.pagetext h2 {
+  margin-top: 2%;
+  text-align: center;
+}
+.pagetext h3 {
+  margin-top: 7%;
+  text-align: center;
+}
+.pagetext button {
+  margin-top: 4%;
+  width: 25%;
+  height: 20%;
+  background-color: orange;
+  border: none;
+  font-size: 1rem;
+  padding: 0 2%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
